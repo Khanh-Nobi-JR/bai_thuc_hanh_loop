@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prime</title>
+</head>
+<body>
+<input type="text" id="prime">
+<input type="button"onclick="check()" value="check">
+<span id="result"></span>
+<script>
+    function check(){
+        let number = document.getElementById("prime").value;
+        let count = 0;
+        let N = 2;
+        while (count < number){
+            if (checkPrime(N)){
+                document.getElementById("result").innerHTML += N + ", ";
+                count++;
+            } N = N + 1;
+        }
+    }
+    function checkPrime(N){
+        if(N < 2){
+            return false;
+        } else {
+            for (let i = 2; i <= Math.sqrt(N); i++) {
+                if (N % i == 0){
+                    return false;
+                }
+            } return true;
+        }
+    }
+    // let numbers = +prompt("nhập số lượng SNT đầu tiên:");
+    // let count = 0;
+    // let N,i;
+    // N = 2;
+    //
+    //     for (i = 2; i < Math.sqrt(N); i++) {
+    //         if (i <= Math.sqrt(N)){
+    //             if (N % i == 0){
+    //                 break;
+    //             }else {
+    //                 i++;
+    //             }
+    //
+    //         } else {
+    //             document.write(N);
+    //             count += 1;
+    //         }
+    //
+    //     } N +=1;
+    // function checkSNT(N){
+    //     let prime = true;
+    //     let i;
+    //     for ( i = 0; i <= Math.sqrt(N) ; i++) {
+    //          if (N % i == 0){
+    //              return false;
+    //          }
+    //     }
+    // }
+
+</script>
+</body>
+</html>

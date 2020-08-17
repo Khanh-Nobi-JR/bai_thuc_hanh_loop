@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="741f421c-de1f-45cb-add4-6fdf8073f6c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/nested_loop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/while_long_nhau.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bangcuuchuong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check_prime.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nested_loop.html" beforeDir="false" afterPath="$PROJECT_DIR$/nested_loop.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +43,9 @@
       <option name="presentableId" value="Default" />
       <updated>1597396888016</updated>
       <workItem from="1597396889085" duration="1464000" />
-      <workItem from="1597482054116" duration="3734000" />
+      <workItem from="1597482054116" duration="4849000" />
+      <workItem from="1597566245984" duration="3148000" />
+      <workItem from="1597626196717" duration="8671000" />
     </task>
     <servers />
   </component>
@@ -50,6 +53,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="437" y="188" key="#Notifications" timestamp="1597566278992">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="437" y="188" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1597566278992" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1597486936015">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
